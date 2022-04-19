@@ -1,14 +1,14 @@
 package edu.kis.vh.nursery;
 
-public class defaultCountingOutRhymer {
+public class DefaultCountingOutRhymer {
 
-	private int[] numbers = new int[12];
+	private int[] NUMBERS = new int[12];
 
 	public int total = -1;
 
 	public void countIn(int in) {
 		if (!isFull()) {
-			numbers[++total] = in;
+			NUMBERS[++total] = in;
 		}
 	}
 
@@ -24,13 +24,13 @@ public class defaultCountingOutRhymer {
 		if (callCheck()) {
 			return -1;
 		}
-		return numbers[total];
+		return NUMBERS[total];
 	}
 			
 	public int countOut() {
 		if (callCheck())
 			return -1;
-		return numbers[total--];
+		return NUMBERS[total--];
 	}
 
 }
