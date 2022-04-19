@@ -1,3 +1,5 @@
+//Kombinacja klawiszy alt + right_arrow / alt + left_arrow - przechodzenie miedzy aktualnie otwartymi oknami
+
 package edu.kis.vh.nursery.factory;
 
 import edu.kis.vh.nursery.defaultCountingOutRhymer;
