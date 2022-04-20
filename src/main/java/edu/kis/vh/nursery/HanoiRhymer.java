@@ -9,6 +9,7 @@ int totalRejected = _TOTAL_REJECTED;
 		return totalRejected;
 	}
 
+	@Override
 	public void countIn(int in) {
 		if (!callCheck() && in > peekaboo()) {
 			totalRejected++;
